@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Rico Edwardo - Freelancer Web Developer">
+  <title>Rico Edwardo | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Rico<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content reveal">
+        <div class="hero-text">
+          <p class="eyebrow">FREELANCER WEB DEVELOPER</p>
+          <h1>Halo, Saya <span>Rico Edwardo</span></h1>
+          <p class="hero-description">
+            Saya membuat website modern, sistem informasi, dan aplikasi berbasis web
+            yang responsive, profesional, dan mudah digunakan.
+          </p>
+          <div class="hero-buttons">
+            <a href="#project" class="btn btn-primary">Lihat Project</a>
+            <a href="#kontak" class="btn btn-outline">Hubungi Saya</a>
+          </div>
+          <div class="quick-info">
+            <div><strong>3+</strong><small>Project</small></div>
+            <div><strong>4+</strong><small>Skills</small></div>
+            <div><strong>100%</strong><small>Semangat</small></div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="profile-ring">
+            <div class="profile-placeholder">RE</div>
+          </div>
+          <p>Web Developer</p>
+          <small>HTML • CSS • JavaScript • PHP • MySQL</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="tentang" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">TENTANG SAYA</p>
+          <h2>Membangun website yang <span>bermanfaat</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card reveal">
+            <div class="about-icon">01</div>
+            <h3>Profesional</h3>
+            <p>Mengutamakan tampilan yang rapi, modern, dan sesuai kebutuhan pengguna.</p>
+          </div>
+          <div class="about-card reveal">
+            <div class="about-icon">02</div>
+            <h3>Responsive</h3>
+            <p>Website dibuat agar nyaman digunakan di laptop, tablet, maupun smartphone.</p>
+          </div>
+          <div class="about-card reveal">
+            <div class="about-icon">03</div>
+            <h3>Database</h3>
+            <p>Berpengalaman membuat sistem berbasis PHP dan MySQL untuk pengolahan data.</p>
+          </div>
+        </div>
+
+        <div class="about-text reveal">
+          <p>
+            Saya adalah freelancer web developer yang fokus membuat website profesional,
+            responsive, dan mudah digunakan. Saya membantu membuat sistem informasi,
+            website bisnis, dan aplikasi berbasis database.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skill" class="section section-dark">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">KEAHLIAN</p>
+          <h2>Tech Stack yang saya gunakan</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-top"><span class="skill-icon html">HTML</span><strong>90%</strong></div>
+            <h3>HTML</h3><p>Membuat struktur website yang teratur dan semantic.</p>
+            <div class="progress"><span style="width:90%"></span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-top"><span class="skill-icon css">CSS</span><strong>85%</strong></div>
+            <h3>CSS</h3><p>Membuat desain modern, responsive, dan menarik.</p>
+            <div class="progress"><span style="width:85%"></span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-top"><span class="skill-icon js">JS</span><strong>75%</strong></div>
+            <h3>JavaScript</h3><p>Menambahkan interaksi dan fungsi dinamis pada website.</p>
+            <div class="progress"><span style="width:75%"></span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-top"><span class="skill-icon php">PHP</span><strong>85%</strong></div>
+            <h3>PHP & MySQL</h3><p>Membangun aplikasi web dan sistem informasi berbasis database.</p>
+            <div class="progress"><span style="width:85%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">PROJECT</p>
+          <h2>Beberapa project <span>pilihan</span></h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-image pharmacy"><span>APOTEK</span></div>
+            <div class="project-body">
+              <span class="tag">PHP • MySQL</span>
+              <h3>Sistem Informasi Apotek</h3>
+              <p>Website pengelolaan obat, resep, transaksi, pasien, dan laporan data.</p>
+              <a href="#kontak" class="project-link">Lihat Project →</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image shop"><span>STORE</span></div>
+            <div class="project-body">
+              <span class="tag">PHP • MySQL</span>
+              <h3>Website Toko Online</h3>
+              <p>Website penjualan produk dengan database MySQL dan tampilan responsive.</p>
+              <a href="#kontak" class="project-link">Lihat Project →</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image portfolio"><span>PORTFOLIO</span></div>
+            <div class="project-body">
+              <span class="tag">HTML • CSS • JS</span>
+              <h3>Website Portfolio</h3>
+              <p>Website pribadi untuk freelancer agar terlihat profesional di internet.</p>
+              <a href="#kontak" class="project-link">Lihat Project →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="section contact-section">
+      <div class="container">
+        <div class="contact-box reveal">
+          <div>
+            <p class="eyebrow">KONTAK</p>
+            <h2>Punya project? <span>Mari bekerja sama.</span></h2>
+            <p>Saya siap membantu membuat website atau sistem informasi sesuai kebutuhan Anda.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="contact-item" href="mailto:ricoe123456@email.com">
+              <span>✉</span><div><small>Email</small><strong>ricoe123456@email.com</strong></div>
+            </a>
+            <a class="contact-item" href="https://wa.me/6285258839114" target="_blank" rel="noopener">
+              <span>☏</span><div><small>WhatsApp</small><strong>Chat Saya</strong></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div><strong>Rico<span>.</span></strong><p>Freelancer Web Developer</p></div>
+      <p>© 2026 Rico Edwardo | Freelancer Web Developer</p>
+    </div>
+  </footer>
+
+  <button id="backTop" class="back-top" aria-label="Kembali ke atas">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
